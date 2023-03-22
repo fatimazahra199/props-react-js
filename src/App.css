@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -36,3 +37,15 @@
     transform: rotate(360deg);
   }
 }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  background-image: url(./Profile/images/hand-painted-watercolor-background.jpg);
+  background-size: cover;
+  background-position: center;
+  /* min-height: 100vh; */
+}
+
+
+

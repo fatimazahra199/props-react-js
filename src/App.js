@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import Profile from "./Profile/Profile";
+import profileImage from "./Profile/images/hijabi.jpg";
 
 function App() {
+  const handleName = (fullName) => {
+    alert(`The name of the profile user is ${fullName}`);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+    >
+      <Profile
+        fullName="Fatima Zahra Faryat"
+        bio="I'm a passionate front-end developer with 2 years of experience in the industry. I specialize in creating dynamic and visually appealing user interfaces using a variety of technologies such as HTML, CSS, JavaScript, and React.
+        My mission as a developer is to create seamless user experiences that are both functional and aesthetically pleasing. I take pride in my attention to detail, ensuring that every pixel on the screen is in its rightful place. I'm constantly keeping up with the latest trends and best practices in web development to deliver the best results for my clients."
+        profession="Software Engineer"
+        handleName={handleName}
+      >
+        <img
+          src={profileImage}
+          alt="Profile"
+          style={{ width: "100%", height: "100%", objectFit: "cover" }}
+        />
+      </Profile>
     </div>
   );
 }
