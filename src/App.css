@@ -46,6 +46,25 @@ body {
   background-position: center;
   /* min-height: 100vh; */
 }
+.gradient_text{
+  background-image: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 300%;
+  animation: gradient_animation 3s infinite alternate;
+}
+
+@keyframes gradient_animation {
+  0% {
+    background-position: left;
+  }
+
+  100% {
+    background-position: right;
+  }
+}
+
 
 
 

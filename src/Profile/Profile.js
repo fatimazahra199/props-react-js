@@ -31,10 +31,10 @@ const Profile = ({ fullName, bio, profession, children, handleName }) => {
             flexDirection: "column",
             gap: 2,
             backgroundColor: "#fff",
-            paddingLeft: "0.6rem",
+            paddingLeft: "0.7rem",
           }}
         >
-          <h2>{fullName}</h2>
+          <h2 className="gradient_text">{fullName}</h2>
           <p>
             Bio : <br /> <br /> {bio}
           </p>
