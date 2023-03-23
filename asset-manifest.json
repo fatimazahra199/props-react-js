@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.55166c16.css",
+    "main.js": "/static/js/main.a7df8432.js",
+    "static/js/787.3f8ded00.chunk.js": "/static/js/787.3f8ded00.chunk.js",
+    "static/media/hand-painted-watercolor-background.jpg": "/static/media/hand-painted-watercolor-background.42f0429a82d0ddd194fb.jpg",
+    "static/media/hijabi.jpg": "/static/media/hijabi.605b5fa3e3768841de47.jpg",
+    "index.html": "/index.html",
+    "main.55166c16.css.map": "/static/css/main.55166c16.css.map",
+    "main.a7df8432.js.map": "/static/js/main.a7df8432.js.map",
+    "787.3f8ded00.chunk.js.map": "/static/js/787.3f8ded00.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55166c16.css",
+    "static/js/main.a7df8432.js"
+  ]
+}
