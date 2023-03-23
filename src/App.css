@@ -65,6 +65,30 @@ body {
   }
 }
 
+span{
+  background-color: #f3ec78;
+  background-image: linear-gradient(60deg, #f378ce, #af6442);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  font-weight: 500;
+}
+
+button{
+  background-image: linear-gradient(60deg, #f378ce, #af6442);
+  border:1px solid #f378ce;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    background-color: blue;
+  }
+}
+
+
+
 
 
 

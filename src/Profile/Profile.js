@@ -8,7 +8,6 @@ const Profile = ({ fullName, bio, profession, children, handleName }) => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        // backgroundColor:"red",
         minHeight: "100vh",
         borderRadius: "10%",
       }}>
@@ -19,7 +18,6 @@ const Profile = ({ fullName, bio, profession, children, handleName }) => {
           width: "50rem",
           height: "10%",
           position: "relative",
-          borderRadius: "20px",
         }}
       >
         {children}
@@ -35,11 +33,12 @@ const Profile = ({ fullName, bio, profession, children, handleName }) => {
           }}
         >
           <h2 className="gradient_text">{fullName}</h2>
-          <p>
-            Bio : <br /> <br /> {bio}
+          <p style={{ textAlign: "justify", marginRight: "1rem" }} >
+            <span> Bio : </span> <br /> <br />
+              {bio}
           </p>
           <p>
-            Profession : <br /> <br />
+          <span> Profession : </span> <br /> <br /> 
             {profession}
           </p>
 
@@ -49,6 +48,7 @@ const Profile = ({ fullName, bio, profession, children, handleName }) => {
               borderRadius: "15px",
               width: "6rem",
               padding: "0.4rem",
+              marginBottom: "1rem",
             }}
           >
             Click Me
